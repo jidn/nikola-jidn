@@ -183,6 +183,11 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
 
 /* Pygments via Jekyll */
 .highlight {
