@@ -51,6 +51,11 @@ It uses a dictionary supporting possibly different authors in the config:
               }
 ```
 
+### Base System changes
+
+LOGO_URL
+    Not supported from Lanyon.  It is a minimal theme with no place for logo.
+
 ### Lanyon Configuration
 
 It supports one variable set in the config:
