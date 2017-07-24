@@ -72,7 +72,9 @@ lang="${lang}">
         %if use_cdn:
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         %else:
+        <%doc>
             <script src="/assets/js/jquery.min.js"></script>
+        </%doc>
         %endif
         <script src="/assets/js/moment-with-locales.min.js"></script>
         <script src="/assets/js/fancydates.js"></script>
