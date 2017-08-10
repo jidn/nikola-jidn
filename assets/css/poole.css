@@ -188,6 +188,9 @@ pre.literal-block, pre.doctest-block, pre.math, pre.code {
   margin-right: 0em;
 }
 
+pre+p {
+    margin-top: 1rem;
+}
 
 /* Pygments via Jekyll */
 .highlight {
