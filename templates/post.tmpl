@@ -92,10 +92,19 @@ ${comments.comment_link_script()}
 <div itemprop="author" itemscope itemtype="http://schema.org/Person">
 %if post.author() in JIDN:
 <footer class="byline author author-bio vcard">
+    <hr/>
      <meta itemprop="image" content="${JIDN[post.author()]['image']}"/>
      <div class="author-image" style="background: url(${JIDN[post.author()]['image']})" />
-     <h3 class="byline-name fn" itemprop="name">${post.author()}
-     % if 'social' in JIDN[post.author()] and len(JIDN[post.author()]):
+     <h3 class="byline-name fn" itemprop="name">${post.author()|trim}
+     % if 'email' in JIDN[post.author()]:
+        <span class='post-sharing'>
+            <a href="mailto:${JIDN[post.author()]['email']}?subject=${post.title()|h}"
+            aria-label="Email author">
+            <i class="fa fa-2 fa-fw fa-envelope" aria-hidden="true" title="Email author" /i>
+            </a>
+        </span>
+     % endif
+     % if 'social' in JIDN[post.author()]:
         <span class='post-sharing'>
         %for url in JIDN[post.author()]['social']:
             ${url|social_link}
