@@ -51,22 +51,22 @@ Each dictionary for an author can have the following fields.
 All of which are optional except for `image`:
 
 image
-    **[Required field]**
+:   **[Required field]**
     A URL to a 120x120 image of yourself or avatar.
     If you want a different size, you can change to dimensions in the CSS (
     look for `.author-image`).
 
 email
-    This could be BLOG_EMAIL or an alternate authors email address
+:   This could be BLOG_EMAIL or an alternate authors email address
 
 bio
-    A short biography of your self.
+:   A short biography of your self.
 
 map
-    A string providing your general or specific location.
+:   A string providing your general or specific location.
 
 social
-    A sequence of your public social accounts you want others to see.
+:   A sequence of your public social accounts you want others to see.
     From the URL I try to match to something in [FontAwsome](http://fontawesome.io/icons/#brand)
 
 
