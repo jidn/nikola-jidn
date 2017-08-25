@@ -1,5 +1,6 @@
 .. title: JIDN: a Nikola Theme
 .. slug: jidn-a-nikola-theme
+.. date: Fri 25 Aug 2017 13:35:25 +0000
 .. type: text
 
 .. raw: html
@@ -29,6 +30,17 @@
     window.onload = setLiveDemoOnClick;
     </script>
 
+JIDN: a Nikola Theme
+=============================
+
+When I ran across Hynek Schlawack's `blog`_, I liked the simplistic beauty.
+When I took a look at the source, I fell in love.
+Here is my homage to beauty, to which I can only inspire.
+
+You can view the demo, where you can change between the different colors, at http://jidn.com/blog/jidn-a-nikola-theme/ and the code at `GitHub`_.
+
+.. TEASER_END:
+
 .. container: menu-onclk
 
     `Color Themes`_
@@ -43,15 +55,6 @@
     + Magenta
     + Brown
 
-
-JIDN: a Nikola Theme
-============================
-
-When I ran across Hynek Schlawack's `blog`_, I liked the simplistic beauty.
-When I took a look at the source, I fell in love.
-Here is my homage to beauty, to which I can only inspire.
-
-You can view the demo, where you can change between the different colors, at http://jidn.com/jidn-a-nikola-theme/ and the code at `GitHub`_.
 
 Theme Highlights
 -----------------------------
