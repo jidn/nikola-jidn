@@ -1,5 +1,4 @@
 # JIDN: a Nikola Theme
-=============================
 
 When I ran across Hynek Schlawack's [blog](https://hynek.me/articles), I liked the simplistic beauty.
 When I took a look at the source, I fell in love.
