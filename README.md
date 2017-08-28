@@ -27,7 +27,12 @@ You can view the demo, where you can change between the different colors, at htt
     + Pinterest
     + and more
 * Easy CSS Override
-* Based on the [lanyon theme](https://themes.getnikola.com/v7/lanyon/)
+
+## Preview
+
+This theme is based on the [lanyon theme](https://themes.getnikola.com/v7/lanyon/).
+All the interesting things in this theme happen at the post bottom.  Here is a quick look at the end of a post.  You can see post sharing with Twitter, Facebook, and Google+. The author section contains a name, photo, and other configurable items.
+![nikola-jidn](https://user-images.githubusercontent.com/3378145/29786394-9f1c2d3e-8bf0-11e7-8cc1-e3ec20f64df8.png)
 
 ## Post Sharing
 
